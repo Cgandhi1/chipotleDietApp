@@ -13,6 +13,42 @@
 		BA0DF1B422226A9900817156 /* chipotleDiet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF1B222226A9900817156 /* chipotleDiet.xcdatamodeld */; };
 		BA0DF1B622226A9A00817156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1B522226A9A00817156 /* Assets.xcassets */; };
 		BA0DF1B922226A9A00817156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1B722226A9A00817156 /* LaunchScreen.storyboard */; };
+		BA0DF1E122226CC500817156 /* pinto-beans.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C122226CC500817156 /* pinto-beans.png */; };
+		BA0DF1E222226CC500817156 /* chips-tomato-salsa.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C222226CC500817156 /* chips-tomato-salsa.png */; };
+		BA0DF1E322226CC500817156 /* bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C322226CC500817156 /* bowl.png */; };
+		BA0DF1E422226CC500817156 /* Copy of JK UNIVERSE.xd in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C422226CC500817156 /* Copy of JK UNIVERSE.xd */; };
+		BA0DF1E522226CC500817156 /* lettuce@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C522226CC500817156 /* lettuce@3x.png */; };
+		BA0DF1E622226CC500817156 /* chips-queso@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C622226CC500817156 /* chips-queso@3x.png */; };
+		BA0DF1E722226CC500817156 /* tacos@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C722226CC500817156 /* tacos@3x.png */; };
+		BA0DF1E822226CC500817156 /* fresh-tomato-salsa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C822226CC500817156 /* fresh-tomato-salsa@3x.png */; };
+		BA0DF1E922226CC500817156 /* guacamole@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1C922226CC500817156 /* guacamole@3x.png */; };
+		BA0DF1EA22226CC500817156 /* Chipotle Diet UI.xd in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1CA22226CC500817156 /* Chipotle Diet UI.xd */; };
+		BA0DF1EB22226CC500817156 /* corn-chips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1CB22226CC500817156 /* corn-chips.jpg */; };
+		BA0DF1EC22226CC500817156 /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1CC22226CC500817156 /* chicken.png */; };
+		BA0DF1ED22226CC500817156 /* chipotle-honey-vinaigrette@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1CD22226CC500817156 /* chipotle-honey-vinaigrette@2x.jpg */; };
+		BA0DF1EE22226CC500817156 /* steak.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1CE22226CC500817156 /* steak.png */; };
+		BA0DF1EF22226CC500817156 /* fajita_veg.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1CF22226CC500817156 /* fajita_veg.png */; };
+		BA0DF1F022226CC500817156 /* burrito.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D022226CC500817156 /* burrito.png */; };
+		BA0DF1F122226CC500817156 /* roasted-chili-corn-salsa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D122226CC500817156 /* roasted-chili-corn-salsa@3x.png */; };
+		BA0DF1F222226CC500817156 /* queso@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D222226CC500817156 /* queso@3x.png */; };
+		BA0DF1F322226CC500817156 /* chips-red-salsa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D322226CC500817156 /* chips-red-salsa@3x.png */; };
+		BA0DF1F422226CC500817156 /* tomatillo-green-chili-salsa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D422226CC500817156 /* tomatillo-green-chili-salsa@3x.png */; };
+		BA0DF1F522226CC500817156 /* tomatillo-red-chili-salsa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D522226CC500817156 /* tomatillo-red-chili-salsa@3x.png */; };
+		BA0DF1F622226CC500817156 /* barbacoa.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D622226CC500817156 /* barbacoa.png */; };
+		BA0DF1F722226CC500817156 /* cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D722226CC500817156 /* cheese.png */; };
+		BA0DF1F822226CC500817156 /* carnitas.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D822226CC500817156 /* carnitas.png */; };
+		BA0DF1F922226CC500817156 /* sofritas.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1D922226CC500817156 /* sofritas.png */; };
+		BA0DF1FA22226CC500817156 /* black-beans.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1DA22226CC500817156 /* black-beans.png */; };
+		BA0DF1FB22226CC500817156 /* salad.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1DB22226CC500817156 /* salad.png */; };
+		BA0DF1FC22226CC500817156 /* tortilla-chips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1DC22226CC500817156 /* tortilla-chips.jpg */; };
+		BA0DF1FD22226CC500817156 /* sour-cream@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1DD22226CC500817156 /* sour-cream@3x.png */; };
+		BA0DF1FE22226CC500817156 /* chips-guac@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1DE22226CC500817156 /* chips-guac@3x.png */; };
+		BA0DF1FF22226CC500817156 /* white-rice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1DF22226CC500817156 /* white-rice@3x.png */; };
+		BA0DF20022226CC500817156 /* brown-rice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF1E022226CC500817156 /* brown-rice@3x.png */; };
+		BA14A2BC222B07E9005443A8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14A2BB222B07E9005443A8 /* File.swift */; };
+		BA14A2BE222B0A1B005443A8 /* selectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14A2BD222B0A1B005443A8 /* selectionViewController.swift */; };
+		BADD87C522234BC300A4CCB5 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD87C422234BC300A4CCB5 /* InputViewController.swift */; };
+		BADD87C92223B91100A4CCB5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD87C82223B91100A4CCB5 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +60,42 @@
 		BA0DF1B522226A9A00817156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0DF1B822226A9A00817156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA0DF1BA22226A9A00817156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0DF1C122226CC500817156 /* pinto-beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinto-beans.png"; sourceTree = "<group>"; };
+		BA0DF1C222226CC500817156 /* chips-tomato-salsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chips-tomato-salsa.png"; sourceTree = "<group>"; };
+		BA0DF1C322226CC500817156 /* bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowl.png; sourceTree = "<group>"; };
+		BA0DF1C422226CC500817156 /* Copy of JK UNIVERSE.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Copy of JK UNIVERSE.xd"; sourceTree = "<group>"; };
+		BA0DF1C522226CC500817156 /* lettuce@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lettuce@3x.png"; sourceTree = "<group>"; };
+		BA0DF1C622226CC500817156 /* chips-queso@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chips-queso@3x.png"; sourceTree = "<group>"; };
+		BA0DF1C722226CC500817156 /* tacos@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tacos@3x.png"; sourceTree = "<group>"; };
+		BA0DF1C822226CC500817156 /* fresh-tomato-salsa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fresh-tomato-salsa@3x.png"; sourceTree = "<group>"; };
+		BA0DF1C922226CC500817156 /* guacamole@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guacamole@3x.png"; sourceTree = "<group>"; };
+		BA0DF1CA22226CC500817156 /* Chipotle Diet UI.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chipotle Diet UI.xd"; sourceTree = "<group>"; };
+		BA0DF1CB22226CC500817156 /* corn-chips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "corn-chips.jpg"; sourceTree = "<group>"; };
+		BA0DF1CC22226CC500817156 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
+		BA0DF1CD22226CC500817156 /* chipotle-honey-vinaigrette@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chipotle-honey-vinaigrette@2x.jpg"; sourceTree = "<group>"; };
+		BA0DF1CE22226CC500817156 /* steak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steak.png; sourceTree = "<group>"; };
+		BA0DF1CF22226CC500817156 /* fajita_veg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fajita_veg.png; sourceTree = "<group>"; };
+		BA0DF1D022226CC500817156 /* burrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burrito.png; sourceTree = "<group>"; };
+		BA0DF1D122226CC500817156 /* roasted-chili-corn-salsa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roasted-chili-corn-salsa@3x.png"; sourceTree = "<group>"; };
+		BA0DF1D222226CC500817156 /* queso@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queso@3x.png"; sourceTree = "<group>"; };
+		BA0DF1D322226CC500817156 /* chips-red-salsa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chips-red-salsa@3x.png"; sourceTree = "<group>"; };
+		BA0DF1D422226CC500817156 /* tomatillo-green-chili-salsa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomatillo-green-chili-salsa@3x.png"; sourceTree = "<group>"; };
+		BA0DF1D522226CC500817156 /* tomatillo-red-chili-salsa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomatillo-red-chili-salsa@3x.png"; sourceTree = "<group>"; };
+		BA0DF1D622226CC500817156 /* barbacoa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbacoa.png; sourceTree = "<group>"; };
+		BA0DF1D722226CC500817156 /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheese.png; sourceTree = "<group>"; };
+		BA0DF1D822226CC500817156 /* carnitas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carnitas.png; sourceTree = "<group>"; };
+		BA0DF1D922226CC500817156 /* sofritas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sofritas.png; sourceTree = "<group>"; };
+		BA0DF1DA22226CC500817156 /* black-beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-beans.png"; sourceTree = "<group>"; };
+		BA0DF1DB22226CC500817156 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salad.png; sourceTree = "<group>"; };
+		BA0DF1DC22226CC500817156 /* tortilla-chips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tortilla-chips.jpg"; sourceTree = "<group>"; };
+		BA0DF1DD22226CC500817156 /* sour-cream@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sour-cream@3x.png"; sourceTree = "<group>"; };
+		BA0DF1DE22226CC500817156 /* chips-guac@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chips-guac@3x.png"; sourceTree = "<group>"; };
+		BA0DF1DF22226CC500817156 /* white-rice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-rice@3x.png"; sourceTree = "<group>"; };
+		BA0DF1E022226CC500817156 /* brown-rice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brown-rice@3x.png"; sourceTree = "<group>"; };
+		BA14A2BB222B07E9005443A8 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BA14A2BD222B0A1B005443A8 /* selectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionViewController.swift; sourceTree = "<group>"; };
+		BADD87C422234BC300A4CCB5 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		BADD87C82223B91100A4CCB5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +128,83 @@
 		BA0DF1AA22226A9900817156 /* chipotleDiet */ = {
 			isa = PBXGroup;
 			children = (
-				BA0DF1AB22226A9900817156 /* AppDelegate.swift */,
-				BA0DF1AD22226A9900817156 /* ViewController.swift */,
-				BA0DF1AF22226A9900817156 /* Main.storyboard */,
+				BADD87C322234B3B00A4CCB5 /* View */,
+				BADD87C022234B1200A4CCB5 /* Model */,
+				BADD87C222234B2400A4CCB5 /* Controller */,
 				BA0DF1B522226A9A00817156 /* Assets.xcassets */,
 				BA0DF1B722226A9A00817156 /* LaunchScreen.storyboard */,
 				BA0DF1BA22226A9A00817156 /* Info.plist */,
 				BA0DF1B222226A9900817156 /* chipotleDiet.xcdatamodeld */,
+				BA0DF1C022226CC500817156 /* Chipotle Diet */,
 			);
 			path = chipotleDiet;
+			sourceTree = "<group>";
+		};
+		BA0DF1C022226CC500817156 /* Chipotle Diet */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DF1C122226CC500817156 /* pinto-beans.png */,
+				BA0DF1C222226CC500817156 /* chips-tomato-salsa.png */,
+				BA0DF1C322226CC500817156 /* bowl.png */,
+				BA0DF1C422226CC500817156 /* Copy of JK UNIVERSE.xd */,
+				BA0DF1C522226CC500817156 /* lettuce@3x.png */,
+				BA0DF1C622226CC500817156 /* chips-queso@3x.png */,
+				BA0DF1C722226CC500817156 /* tacos@3x.png */,
+				BA0DF1C822226CC500817156 /* fresh-tomato-salsa@3x.png */,
+				BA0DF1C922226CC500817156 /* guacamole@3x.png */,
+				BA0DF1CA22226CC500817156 /* Chipotle Diet UI.xd */,
+				BA0DF1CB22226CC500817156 /* corn-chips.jpg */,
+				BA0DF1CC22226CC500817156 /* chicken.png */,
+				BA0DF1CD22226CC500817156 /* chipotle-honey-vinaigrette@2x.jpg */,
+				BA0DF1CE22226CC500817156 /* steak.png */,
+				BA0DF1CF22226CC500817156 /* fajita_veg.png */,
+				BA0DF1D022226CC500817156 /* burrito.png */,
+				BA0DF1D122226CC500817156 /* roasted-chili-corn-salsa@3x.png */,
+				BA0DF1D222226CC500817156 /* queso@3x.png */,
+				BA0DF1D322226CC500817156 /* chips-red-salsa@3x.png */,
+				BA0DF1D422226CC500817156 /* tomatillo-green-chili-salsa@3x.png */,
+				BA0DF1D522226CC500817156 /* tomatillo-red-chili-salsa@3x.png */,
+				BA0DF1D622226CC500817156 /* barbacoa.png */,
+				BA0DF1D722226CC500817156 /* cheese.png */,
+				BA0DF1D822226CC500817156 /* carnitas.png */,
+				BA0DF1D922226CC500817156 /* sofritas.png */,
+				BA0DF1DA22226CC500817156 /* black-beans.png */,
+				BA0DF1DB22226CC500817156 /* salad.png */,
+				BA0DF1DC22226CC500817156 /* tortilla-chips.jpg */,
+				BA0DF1DD22226CC500817156 /* sour-cream@3x.png */,
+				BA0DF1DE22226CC500817156 /* chips-guac@3x.png */,
+				BA0DF1DF22226CC500817156 /* white-rice@3x.png */,
+				BA0DF1E022226CC500817156 /* brown-rice@3x.png */,
+			);
+			path = "Chipotle Diet";
+			sourceTree = "<group>";
+		};
+		BADD87C022234B1200A4CCB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA14A2BB222B07E9005443A8 /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BADD87C222234B2400A4CCB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DF1AB22226A9900817156 /* AppDelegate.swift */,
+				BA0DF1AD22226A9900817156 /* ViewController.swift */,
+				BADD87C422234BC300A4CCB5 /* InputViewController.swift */,
+				BADD87C82223B91100A4CCB5 /* Alert.swift */,
+				BA14A2BD222B0A1B005443A8 /* selectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BADD87C322234B3B00A4CCB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA0DF1AF22226A9900817156 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +265,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0DF1EE22226CC500817156 /* steak.png in Resources */,
+				BA0DF1E822226CC500817156 /* fresh-tomato-salsa@3x.png in Resources */,
+				BA0DF1E622226CC500817156 /* chips-queso@3x.png in Resources */,
+				BA0DF1F222226CC500817156 /* queso@3x.png in Resources */,
+				BA0DF1E222226CC500817156 /* chips-tomato-salsa.png in Resources */,
+				BA0DF1FB22226CC500817156 /* salad.png in Resources */,
+				BA0DF1ED22226CC500817156 /* chipotle-honey-vinaigrette@2x.jpg in Resources */,
+				BA0DF1F722226CC500817156 /* cheese.png in Resources */,
 				BA0DF1B922226A9A00817156 /* LaunchScreen.storyboard in Resources */,
+				BA0DF1FE22226CC500817156 /* chips-guac@3x.png in Resources */,
+				BA0DF1F822226CC500817156 /* carnitas.png in Resources */,
+				BA0DF1EC22226CC500817156 /* chicken.png in Resources */,
+				BA0DF1F422226CC500817156 /* tomatillo-green-chili-salsa@3x.png in Resources */,
+				BA0DF1F622226CC500817156 /* barbacoa.png in Resources */,
+				BA0DF1FD22226CC500817156 /* sour-cream@3x.png in Resources */,
+				BA0DF1E522226CC500817156 /* lettuce@3x.png in Resources */,
+				BA0DF20022226CC500817156 /* brown-rice@3x.png in Resources */,
 				BA0DF1B622226A9A00817156 /* Assets.xcassets in Resources */,
+				BA0DF1FA22226CC500817156 /* black-beans.png in Resources */,
+				BA0DF1F122226CC500817156 /* roasted-chili-corn-salsa@3x.png in Resources */,
+				BA0DF1E122226CC500817156 /* pinto-beans.png in Resources */,
+				BA0DF1EB22226CC500817156 /* corn-chips.jpg in Resources */,
+				BA0DF1EF22226CC500817156 /* fajita_veg.png in Resources */,
 				BA0DF1B122226A9900817156 /* Main.storyboard in Resources */,
+				BA0DF1E922226CC500817156 /* guacamole@3x.png in Resources */,
+				BA0DF1F322226CC500817156 /* chips-red-salsa@3x.png in Resources */,
+				BA0DF1FC22226CC500817156 /* tortilla-chips.jpg in Resources */,
+				BA0DF1F022226CC500817156 /* burrito.png in Resources */,
+				BA0DF1F922226CC500817156 /* sofritas.png in Resources */,
+				BA0DF1E322226CC500817156 /* bowl.png in Resources */,
+				BA0DF1F522226CC500817156 /* tomatillo-red-chili-salsa@3x.png in Resources */,
+				BA0DF1E722226CC500817156 /* tacos@3x.png in Resources */,
+				BA0DF1E422226CC500817156 /* Copy of JK UNIVERSE.xd in Resources */,
+				BA0DF1FF22226CC500817156 /* white-rice@3x.png in Resources */,
+				BA0DF1EA22226CC500817156 /* Chipotle Diet UI.xd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +311,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0DF1AE22226A9900817156 /* ViewController.swift in Sources */,
+				BA14A2BC222B07E9005443A8 /* File.swift in Sources */,
+				BA14A2BE222B0A1B005443A8 /* selectionViewController.swift in Sources */,
 				BA0DF1B422226A9900817156 /* chipotleDiet.xcdatamodeld in Sources */,
 				BA0DF1AC22226A9900817156 /* AppDelegate.swift in Sources */,
+				BADD87C92223B91100A4CCB5 /* Alert.swift in Sources */,
+				BADD87C522234BC300A4CCB5 /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
