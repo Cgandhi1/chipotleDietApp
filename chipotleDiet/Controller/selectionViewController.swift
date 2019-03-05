@@ -10,20 +10,26 @@ import UIKit
 
 class selectionViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    //1. set up buttons/tableView
     @IBOutlet weak var refreshBtn: UIButton!
-    
     @IBOutlet weak var doneBtn: UIButton!
-    
     @IBOutlet weak var tableView: UITableView!
     
+    //2. create model object to reference later and variables from inputViewController
     let data = Data()
+    //calories
+    //carbs
+    //fats
+    //protein
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //initialize corner radius to buttons
         refreshBtn.layer.cornerRadius = 26
         doneBtn.layer.cornerRadius = 26
     }
     
+    //3. Setting up TableView header and cell methods
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return data.sections[section]
     }
@@ -59,7 +65,7 @@ class selectionViewController: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 126
     }
-//
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
@@ -89,4 +95,4 @@ class selectionViewController: UIViewController, UITableViewDelegate, UITableVie
     
     
 
-}
+} //end of class

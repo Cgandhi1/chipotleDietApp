@@ -8,6 +8,7 @@
 
 import UIKit
 
+//UITextfield extension for setting up the textfield components
 extension UITextField {
     func set(bgColor: UIColor, placeholderTxt: String, placeholderColor: UIColor, txtColor: UIColor) {
         
@@ -17,6 +18,7 @@ extension UITextField {
     }
 }
 
+//string extension to check for validation for each label
 extension String {
     var checkForCalories: Bool {
         if UInt(self) != nil, UInt(self)! <= 6700 && UInt(self)! >= 150 {
@@ -43,6 +45,7 @@ extension String {
     }
 }
 
+//validation enumeration
 enum LoginError: Error {
     case incompleteForm
     case invalidInput
@@ -51,11 +54,10 @@ enum LoginError: Error {
 
 class InputViewController: UIViewController {
     
-    //Data from ViewController
+    //1. Data from ViewController
     var caloriesSelected: Bool = true
     
-    //IBOutlet Btns and Labels
-    
+    //2. IBOutlet Btns and Labels
     @IBOutlet weak var inputName: UILabel!
     @IBOutlet weak var inputNameLbl: UITextField!
     @IBOutlet weak var inputCalories: UILabel!
@@ -68,7 +70,7 @@ class InputViewController: UIViewController {
     @IBOutlet weak var inputProteinLbl: UITextField!
     @IBOutlet weak var goBtn: UIButton!
     
-    //Textfield Variables
+    //3. Textfield Variables
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -76,10 +78,10 @@ class InputViewController: UIViewController {
         inputNameLbl.borderStyle = UITextField.BorderStyle.roundedRect
         inputNameLbl.font = UIFont(name: "avenir next", size: 20)
         
-        //SHOW CALORIES IF USER SELECT CALORIES
+        //SHOW CALORIES TEXTFIELD PROPERTIES IF USER SELECT CALORIES
         if caloriesSelected == true {
             
-            //Calories
+            
             inputCaloriesLbl.set(bgColor: UIColor.white, placeholderTxt: "Input Calories Here", placeholderColor: UIColor.gray, txtColor: UIColor.black)
             inputCaloriesLbl.borderStyle = UITextField.BorderStyle.roundedRect
             inputCaloriesLbl.font = UIFont(name: "avenir next", size: 20)
@@ -92,8 +94,9 @@ class InputViewController: UIViewController {
             inputProtein.isHidden = true
             inputProteinLbl.isHidden = true
             
-            //SHOW MACROS ONLY IF USER SELECTS MACROS
+            
         } else {
+            //SHOW MACROS TEXTFIELD PROPERTIES ONLY IF USER SELECTS MACROS
             //Carbs
             inputCarbsLbl.set(bgColor: UIColor.white, placeholderTxt: "Input Carbs Here", placeholderColor: UIColor.gray, txtColor: UIColor.black)
             inputCarbsLbl.borderStyle = UITextField.BorderStyle.roundedRect
@@ -123,13 +126,15 @@ class InputViewController: UIViewController {
     } //end of viewDidLoad
         
     
+    
+    //4. Go Button method with DO CATCH TRY
     @IBAction func goBtnPressed(_ sender: UIButton) {
         
         do {
             
             try go()
             
-            
+        //7.5 caching enumeration error and displaying alert
         } catch LoginError.incompleteForm {
             
             if caloriesSelected == true {
@@ -154,8 +159,10 @@ class InputViewController: UIViewController {
         
     }
     
-    
+    //5. Go Method
     func go() throws {
+        
+        //6. setting labels to variables
         let checkInputName: String = inputNameLbl.text!
         let checkCaloriesInput: String = inputCaloriesLbl.text!
         let checkCarbsInput: String = inputCarbsLbl.text!
@@ -164,6 +171,8 @@ class InputViewController: UIViewController {
         if checkInputName.count > 26 {
             throw LoginError.invalidLength
         }
+        
+        //7. checking entries for calories
         if caloriesSelected == true {
             if checkCaloriesInput.isEmpty {
                 throw LoginError.incompleteForm
@@ -172,6 +181,8 @@ class InputViewController: UIViewController {
                 throw LoginError.invalidInput
             }
         }
+        
+        //7. checking entries for macros
         if caloriesSelected == false {
             if checkCarbsInput.isEmpty || checkFatsInput.isEmpty || checkProteinInput.isEmpty {
                 throw LoginError.incompleteForm
@@ -181,11 +192,21 @@ class InputViewController: UIViewController {
             }
         }
         
+        //8. if everything is success, perform segue
         performSegue(withIdentifier: "toSelectionVC", sender: self)
         
         }
     
+    //9. preparing for segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toSelectionVC" {
+            let thirdVC = segue.destination as! selectionViewController
+            //!!send over inputted calories and macronutrient variables here
+        }
+    }
     
+    
+    //Setting Title and Subtitle
     func setTitle(title:String, subtitle:String) -> UIView {
         
         //Get navigation Bar Height and Width
@@ -255,12 +276,6 @@ class InputViewController: UIViewController {
         
         return titleView
         
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toSelectionVC" {
-            let thirdVC = segue.destination as! selectionViewController
-        }
     }
     
     

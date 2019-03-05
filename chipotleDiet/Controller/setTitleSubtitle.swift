@@ -1,40 +1,17 @@
 //
-//  ViewController.swift
+//  setTitleSubtitle.swift
 //  chipotleDiet
 //
-//  Created by  admin on 2/24/19.
+//  Created by  admin on 3/4/19.
 //  Copyright © 2019  admin. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+
+struct setTitleSubTitle {
     
-    var caloriesSelected: Bool = true
-    
-    @IBOutlet weak var firstScreenHeader: UILabel!
-    
-    @IBOutlet weak var caloriesBtn: UIButton!
-    
-    @IBOutlet weak var macrosBtn: UIButton!
-    
-    @IBOutlet weak var firstScreenPictureLbl: UIImageView!
-    
-    //viewDidLoad
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        //1. Set Title and SubTitle for Navigation Controller
-        self.navigationItem.titleView = setTitle(title: "CHIPOTLE", subtitle: "DIET APP")
-        
-        //2. Set corner radius of calories and macronutrient button
-        caloriesBtn.layer.cornerRadius = 32
-        macrosBtn.layer.cornerRadius = 32
-        
-        
-    }
-    
-    //Setting the Title and SubTitle from ViewDidLoad
+    //Setting Title and Subtitle
     func setTitle(title:String, subtitle:String) -> UIView {
         
         //Get navigation Bar Height and Width
@@ -65,16 +42,16 @@ class ViewController: UIViewController {
             }
         }
         
-        //Create Font variables for Title and SubTitle
+        
         let titleFont = UIFont(name: "GillSans", size: 19)!
         let subtitleFont = UIFont(name: "AvenirNext-Bold", size: 30)!
         
-        //Set Screen Height and Width variables
         let screenRect = UIScreen.main.bounds
         let screenWidth = Double(screenRect.size.width)
         let screenHeight = Double(screenRect.size.height)
         
-        //Title Characteristics: Color,
+        
+        //Title label
         let titleLabel = UILabel(frame: CGRect(x: screenWidth/2 - 86.67/2, y: y_SubTitle, width: 0, height: 0))
         titleLabel.backgroundColor = UIColor.clear
         titleLabel.textColor = UIColor.init(red: CGFloat(0x6A)/255.0, green: CGFloat(0x6A)/255.0, blue: CGFloat(0x6A)/255.0, alpha: 1)
@@ -86,7 +63,7 @@ class ViewController: UIViewController {
         titleLabel.sizeToFit()
         
         //SubTitle label
-        let subtitleLabel = UILabel(frame: CGRect(x: screenWidth/2 - 135.0/2, y: y_Title + 10, width: 0, height: 0))
+        var subtitleLabel = UILabel(frame: CGRect(x: screenWidth/2 - 135.0/2, y: y_Title + 10, width: 0, height: 0))
         subtitleLabel.backgroundColor = UIColor.clear
         subtitleLabel.textColor = UIColor.init(red: CGFloat(0x2E)/255.0, green: CGFloat(0x2E)/255.0, blue: CGFloat(0x2E)/255.0, alpha: 1)
         subtitleLabel.font = subtitleFont
@@ -95,6 +72,7 @@ class ViewController: UIViewController {
         let subtitleHeight = Double(subtitleLabel.intrinsicContentSize.height)
         print(subtitleWidth)
         subtitleLabel.sizeToFit()
+        
         
         //Add Title and Subtitle to View
         let titleView = UIView(frame: CGRect(x: 0, y: 0, width: navigationBarWidth, height: navigationBarHeight))
@@ -105,28 +83,5 @@ class ViewController: UIViewController {
         
     }
     
-    // 3. Set button method to prepare for segue
-    @IBAction func caloriesFunction(_ sender: UIButton) {
-        if sender.tag == 0{
-            performSegue(withIdentifier: "showCalories", sender: self)
-        }
-        if sender.tag == 1{
-           performSegue(withIdentifier: "showMacros", sender: self)
-        }
-    }
     
-    //4. Prepare for segue method
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showCalories" {
-            let secondVC = segue.destination as! InputViewController
-            secondVC.caloriesSelected = true
-        }
-        
-        if segue.identifier == "showMacros" {
-            let secondVC = segue.destination as! InputViewController
-            secondVC.caloriesSelected = false
-        }
-    }
-    
-
 }
